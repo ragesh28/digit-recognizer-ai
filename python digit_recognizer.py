@@ -23,7 +23,7 @@ model.compile(optimizer='adam',
 
 # 🚨 EDIT THIS LINE: Change the number of epochs to commit 
 # a new version to GitHub! (e.g., 3, 5, 8, 10, etc.)
-epochs_to_run = 10
+epochs_to_run = 11
 
 print(f"Starting training for {epochs_to_run} epochs...")
 model.fit(x_train, y_train, epochs=epochs_to_run)
